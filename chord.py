@@ -3,7 +3,6 @@ import send2trash
 from time import time, sleep
 from datetime import datetime
 import requests
-from bs4 import BeautifulSoup
 import re
 import json
 import pandas as pd
@@ -13,6 +12,7 @@ from pytube import YouTube
 from moviepy.editor import VideoFileClip, AudioFileClip
 from tensorflow.keras.models import Sequential , load_model
 import librosa
+from bs4 import BeautifulSoup
 
 
 USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:65.0) Gecko/20100101 Firefox/65.0"
