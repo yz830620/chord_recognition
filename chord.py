@@ -239,6 +239,8 @@ def load_pred(): #處理載入模型 & 預測函式
     df_fin=df_fin3.reset_index(drop=True)
     return df_fin
 
+st.title('Chord Recognition')
+
 title = st.text_input('Movie title', '無樂不作')
 st.write('The youtube link is', get_yt_link(title))
 liric = get_lyric(title)
