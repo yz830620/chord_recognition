@@ -1,6 +1,6 @@
 tensorflow==2.2.0
 moviepy==1.0.3
-librosa==0.7.0
+librosa==0.8.0
 pytube==10.0.0
 pandas==0.25.3
 numpy==1.19.2
