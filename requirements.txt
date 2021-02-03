@@ -8,4 +8,3 @@ requests==2.24.0
 Send2Trash==1.5.0
 beautifulsoup4==4.9.3
 streamlit==0.75.0
-apt-get install libsndfile1
